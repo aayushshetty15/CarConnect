@@ -65,11 +65,11 @@ CREATE TABLE `buyers` (
 
 INSERT INTO `buyers` (`id`, `name`, `email`, `password`, `phone`, `address`, `status`, `created_at`) VALUES
 (1, 'Demo Buyer', 'buyer@gmail.com', 'buyer123', '9876543210', 'India', 'active', '2026-07-22 15:20:51'),
-(3, 'Leena', 'leena@gmail.com', '$2y$10$u/cgVeDDlLdIMYi689A9de8ng.H0O4KdD3e/Bb54ILz/370cUdtmi', '9887674567', NULL, 'active', '2026-07-22 18:11:32'),
-(4, 'Leena', 'leena1@gmail.com', '$2y$10$E4UYzcRMAk7.OKV5fumLXukvcWnPV40f1L1yNXzN.dyn3iFUTB.iG', '9887674567', NULL, 'active', '2026-07-22 18:13:49'),
-(5, 'Reena', 'reena@gmail.com', '$2y$10$9NW9asMfam4Sq9LSwZmfCeWvItIIAN3fviMhl9HeQXUf/XwucrBWq', '9764563478', NULL, 'active', '2026-07-22 18:16:21'),
-(6, 'Santhosh', 'santhosh@gmail.com', '$2y$10$st5NEAb/JPmzZjCSc6WVU.k9QEJtlzbTmyqD6uyfh0ESpcUBH7dmK', '7856342345', NULL, 'active', '2026-07-22 18:49:38'),
-(7, 'Treeza', 'treeza@gmail.com', '$2y$10$4otp.GgNCPRlPWa9ihnuCe82jAXUeBfn.9CMa6gHginxZKct6GhAe', '9876543235', NULL, 'active', '2026-07-22 18:59:40');
+(3, 'Alex Turner', 'alex.buyer@example.com', '$2y$10$u/cgVeDDlLdIMYi689A9de8ng.H0O4KdD3e/Bb54ILz/370cUdtmi', '9800000003', NULL, 'active', '2026-07-22 18:11:32'),
+(4, 'Sarah Connor', 'sarah.buyer@example.com', '$2y$10$E4UYzcRMAk7.OKV5fumLXukvcWnPV40f1L1yNXzN.dyn3iFUTB.iG', '9800000004', NULL, 'active', '2026-07-22 18:13:49'),
+(5, 'David Miller', 'david.buyer@example.com', '$2y$10$9NW9asMfam4Sq9LSwZmfCeWvItIIAN3fviMhl9HeQXUf/XwucrBWq', '9800000005', NULL, 'active', '2026-07-22 18:16:21'),
+(6, 'Rahul Sharma', 'rahul.buyer@example.com', '$2y$10$st5NEAb/JPmzZjCSc6WVU.k9QEJtlzbTmyqD6uyfh0ESpcUBH7dmK', '9800000006', NULL, 'active', '2026-07-22 18:49:38'),
+(7, 'Priya Patel', 'priya.buyer@example.com', '$2y$10$4otp.GgNCPRlPWa9ihnuCe82jAXUeBfn.9CMa6gHginxZKct6GhAe', '9800000007', NULL, 'active', '2026-07-22 18:59:40');
 
 -- --------------------------------------------------------
 
@@ -318,11 +318,11 @@ CREATE TABLE `sellers` (
 
 INSERT INTO `sellers` (`id`, `name`, `email`, `password`, `phone`, `address`, `status`, `created_at`) VALUES
 (1, 'Demo Seller', 'seller@gmail.com', 'seller123', '9876543210', 'India', 'active', '2026-07-22 15:20:51'),
-(6, 'Joylin', 'joylin@gmail.com', '$2y$10$wQLKYPtL0JQBBk2EjPeXxuGZe9FzgvGoCP6PO/mbevERMr2uo2e66', '9887674567', NULL, 'active', '2026-07-22 16:01:50'),
-(7, 'Milton', 'Milton@gmail.com', '$2y$10$0VL6MihbZlO9JUVsPRI5nOp.1YustFJa8b7f1Xea0xNVxoVQjkLgO', '7996803142', NULL, 'active', '2026-07-22 16:13:07'),
-(8, 'Primal Melvita', 'primal@gmail.com', '$2y$10$VoFmPSs5iBQDH0L9nBCHzOakty2DRZGVfrOZ3JocTILnmjLxluSz.', '7892762829', NULL, 'active', '2026-07-22 16:29:26'),
-(9, 'Akshay', 'akshay@gmail.com', '$2y$10$qWsBKWPRV.el9pWYio1FxuN7NdG8PMMscb18bRnosp1c0C.krA5pi', '8277027563', NULL, 'active', '2026-07-22 16:43:13'),
-(11, 'Karthik', 'karthik@gmail.com', '$2y$10$QqwZqX1hYy.I2w1wS8MQhepNvhhvUjU4uRLSp.KoZt6G2p2Mnqagy', '8978656344', NULL, 'active', '2026-07-22 16:52:40');
+(6, 'Apex Motors', 'apex.motors@example.com', '$2y$10$wQLKYPtL0JQBBk2EjPeXxuGZe9FzgvGoCP6PO/mbevERMr2uo2e66', '9800000016', NULL, 'active', '2026-07-22 16:01:50'),
+(7, 'Royal Auto', 'royal.auto@example.com', '$2y$10$0VL6MihbZlO9JUVsPRI5nOp.1YustFJa8b7f1Xea0xNVxoVQjkLgO', '9800000017', NULL, 'active', '2026-07-22 16:13:07'),
+(8, 'DriveCraft Cars', 'strivecraft@example.com', '$2y$10$VoFmPSs5iBQDH0L9nBCHzOakty2DRZGVfrOZ3JocTILnmjLxluSz.', '9800000018', NULL, 'active', '2026-07-22 16:29:26'),
+(9, 'Prime Wheels', 'primewheels@example.com', '$2y$10$qWsBKWPRV.el9pWYio1FxuN7NdG8PMMscb18bRnosp1c0C.krA5pi', '9800000019', NULL, 'active', '2026-07-22 16:43:13'),
+(11, 'Elite Auto World', 'eliteauto@example.com', '$2y$10$QqwZqX1hYy.I2w1wS8MQhepNvhhvUjU4uRLSp.KoZt6G2p2Mnqagy', '9800000021', NULL, 'active', '2026-07-22 16:52:40');
 
 -- --------------------------------------------------------
 

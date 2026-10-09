@@ -13,7 +13,7 @@ define(
 
 define(
     'CARCONNECT_MAIL_APP_PASSWORD',
-    'fxuw xiel uhlf xeqq'
+    'your_gmail_app_password_here'
 );
 
 define(
